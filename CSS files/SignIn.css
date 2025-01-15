@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+.navbar {
+    background-color: darkslategray;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Parkinsans';
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 5vw;
+}
+.logo a {
+    font-size:3em;
+    font-weight:600;
+    color: white;
+}
+.navbar button {
+    background-color: white;
+    border-radius: 1.1em;
+    padding: 1em;
+}
+.navbar button a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+@font-face {
+    font-family:'Parkinsans'; /*a name to be used later*/
+    src: url('/fonts/Parkinsans-SemiBold.ttf'); /*URL to font*/
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

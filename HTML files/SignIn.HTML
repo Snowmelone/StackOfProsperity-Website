@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS files/SignIn.css">
+  <title>Sign Up & Sign In</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="topnav">
+            <div class="logo"><a href="Home.HTML">Home</a></div>
+        <ul>
+            <li><a href="SiteSetups.HTML">Site Setups</a></li>
+            <li><a href="AttackerStrategies.HTML">Attacker Strategies</a></li>
+            <button><a href="SignIn.HTML">Sign In</a></button>
+        </ul>
+        </div>
+    </div>
+
+  <div class="container">
+    <!-- Sign Up Form -->
+    <form id="signup-form">
+      <h2>Create Account</h2>
+      <input type="email" id="signup-email" placeholder="Email" required>
+      <input type="password" id="signup-password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <!-- Sign In Form -->
+    <form id="signin-form">
+      <h2>Sign In</h2>
+      <input type="email" id="signin-email" placeholder="Email" required>
+      <input type="password" id="signin-password" placeholder="Password" required>
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
+
+  <!-- Logout Button -->
+  <button class="logout-btn" id="logout-btn" style="display: none;">Logout</button>
+  
+  <script src="/Javascript files/SignIn.js"></script>
+</body>
+</html>

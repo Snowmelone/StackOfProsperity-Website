@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+.navbar {
+    background-color: darkslategray;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Parkinsans';
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 5vw;
+}
+.logo a {
+    font-size:3em;
+    font-weight:600;
+    color: white;
+}
+.navbar button {
+    background-color: white;
+    border-radius: 1.1em;
+    padding: 1em;
+}
+.navbar button a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+@font-face {
+    font-family:'Parkinsans'; /*a name to be used later*/
+    src: url('/fonts/Parkinsans-SemiBold.ttf'); /*URL to font*/
+}
+.text1 {
+    position: absolute;
+    bottom: 5%; /* Slightly above the bottom (adjust as needed) */
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Adjusts for width to truly center */
+    text-align: center; /* Ensures text is centered within itself */
+    color: white;
+    font-family: 'Parkinsans';
+}
+th, td {
+    border: none; /* Removes all borders */
+    padding: 10px; /* Adds spacing inside cells */
+    text-align: left; /* Centers text */
+    color: white;
+    font-family: 'Parkinsans';
+    font-size: 1.5em;
+}
+table img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+}
+.container {
+    display: flex; /* Activate Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start;
+    height: 100%; /* Fill the entire viewport height */
+    margin-top: 7%;
+}
+

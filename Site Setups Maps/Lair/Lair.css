@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+.navbar {
+    background-color: darkslategray;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Parkinsans';
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 5vw;
+}
+.logo a {
+    font-size:3em;
+    font-weight:600;
+    color: white;
+}
+.navbar button {
+    background-color: white;
+    border-radius: 1.1em;
+    padding: 1em;
+}
+.navbar button a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+@font-face {
+    font-family:'Parkinsans'; /*a name to be used later*/
+    src: url('/fonts/Parkinsans-SemiBold.ttf'); /*URL to font*/
+}
+/* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Button */
+.dropdown-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Dropdown Content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* Show Dropdown on Click */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Dropdown Button Styling on Hover */
+.dropdown-btn:hover {
+    background-color: #0056b3;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; /* Adjust this value to move the button down */
+}
+table img {
+    width: 80%;
+    height: auto;
+}
+.container {
+    display: flex; /* Activate Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start;
+    height: 100%; /* Fill the entire viewport height */
+    margin-top: 7%;
+}
+td {
+    border: none; /* Removes all borders */
+    padding: 10px; /* Adds spacing inside cells */
+    text-align: left; /* Centers text */
+    color: white;
+    font-family: 'Parkinsans';
+    font-size: 1.5em;
+}
